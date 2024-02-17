@@ -20,10 +20,8 @@ return (
             <img src={firstPalette.image} alt=""/>
             <div className="scheme-colors">
               {firstPalette.colors.map((color) => ( 
-                <>
                   <div key={color} className="scheme-color" style={{ backgroundColor: color }}>{color}
                   </div> 
-                </>
                 ))}
             </div>
           </div>
